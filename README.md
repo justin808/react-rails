@@ -361,3 +361,6 @@ Any subclass of `ExecJSRenderer` may use those hooks (for example, `SprocketsRen
 - `#transform(code_string)` to return a string of transformed code
 
 `react-rails` provides two transformers, `React::JSX::JSXTransformer` and `React::JSX::BabelTransformer`.
+
+### Use with Rails Plus Webpack
+If you're curious about using Webpack and NPM, check out [react_on_rails](https://github.com/shakacode/react_on_rails). It leverages webpack to allow full npm integration of JavasScript assets, and provides a view helper with a similar API to react-rails, including server rendering.
